@@ -17,7 +17,7 @@ footer.footer{
     width: 100%;
 }
 
-.hero-scene{
+.hero-scene{    
     position: relative;
     &::before{
         content:"";
@@ -28,8 +28,7 @@ footer.footer{
         height: 100%;
         background-image: url(../imagesresto/reserveracceuil.jpg);
         background-size: cover;
-        filter: brightness(0.3);
-    
+        filter: brightness(0.3); 
     }
    *{
     // Positionner les éléments devant le ::before
@@ -37,14 +36,11 @@ footer.footer{
    }
 
    .hero-scene-content{
-    
     height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
    }
-
 }
 
 .text-justify{
