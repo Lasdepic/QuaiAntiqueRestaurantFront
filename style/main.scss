@@ -38,12 +38,35 @@ footer.footer{
 
    .hero-scene-content{
     height: 300px;
-    //display: flex;
-    //align-items: center;
-    //justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    }
 }
 
 .text-justify{
     text-align: justify;
+}
+
+.image-card {
+    position: relative;
+    &:hover {
+        .titre-image {
+            opacity: 1;
+        }
+        img {
+            filter: brightness(0.5);
+        }
+    }
+    img {
+        transition: all 0.3s;
+    }
+    .titre-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: all 0.3s;
+    }
 }
