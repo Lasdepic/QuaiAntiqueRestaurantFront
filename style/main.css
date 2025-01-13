@@ -12044,4 +12044,10 @@ footer.footer {
   justify-content: space-between;
   opacity: 0;
   transition: all 0.3s;
+}
+
+.allReservations a {
+  display: block;
+  color: black;
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
