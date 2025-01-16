@@ -9,6 +9,7 @@ const btnValidation = document.getElementById("btn-validation-inscription");
 
 inputNom.addEventListener("keyup", validateForm);
 inputPreNom.addEventListener("keyup", validateForm);
+btnValidation.addEventListener("click", validateForm);
 
 function validateForm(){
     
