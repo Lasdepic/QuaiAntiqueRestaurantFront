@@ -1,7 +1,8 @@
 // Implémenter le JS dans ma page
 
+
 const inputNom = document.getElementById("NomInput");
-const inputPreNom = document.getElementById("PreNomInput");
+const inputPreNom = document.getElementById("PrenomInput");
 const inputMail = document.getElementById("EmailInput");
 const inputPassword = document.getElementById("PasswordInput");
 const inputValidationPassword = document.getElementById("ValidatePasswordNomInput");
@@ -10,6 +11,9 @@ const btnValidation = document.getElementById("btn-validation-inscription");
 inputNom.addEventListener("keyup", validateForm);
 inputPreNom.addEventListener("keyup", validateForm);
 btnValidation.addEventListener("click", validateForm);
+
+
+
 
 function validateForm(){
     
